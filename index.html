@@ -1,100 +1,271 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!doctype html>
+<html lang="pt-br" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vitoria | Portfólio</title>
+    <title>Vitória Alcântara | Desenvolvedora Front-End</title>
+
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cdefs%3E%3ClinearGradient id='cyberGradient' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%2300f2fe' /%3E%3Cstop offset='100%25' stop-color='%238b5cf6' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='512' height='512' rx='120' fill='%23050505'/%3E%3Cpath d='M130 150 L256 380 L382 150 L310 150 L256 260 L202 150 Z' fill='url(%23cyberGradient)'/%3E%3Ccircle cx='256' cy='110' r='24' fill='%2300f2fe' /%3E%3C/svg%3E"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="particulas"></div>
+    <nav class="navbar" id="navbar">
+      <div class="container nav-content">
+        <a href="#inicio" class="logo">
+          <i class="ph-bold ph-code"></i> Vitória Alcântara
+        </a>
 
-    <nav class="navegacao">
-      <ul class="menu">
-        <li><a href="#inicio" class="menu-link">Inicio</a></li>
-        <li><a href="#sobre" class="menu-link">Sobre Mim</a></li>
-        <li><a href="#projetos" class="menu-link">Projetos</a></li>
-        <li><a href="#contato" class="menu-link">Contato</a></li>
-      </ul>
+        <div class="nav-actions">
+          <ul class="menu" id="menu">
+            <li><a href="#sobre" class="menu-link">Sobre</a></li>
+            <li><a href="#habilidades" class="menu-link">Habilidades</a></li>
+            <li><a href="#projetos" class="menu-link">Projetos</a></li>
+          </ul>
+
+          <button
+            id="theme-toggle"
+            class="theme-toggle"
+            aria-label="Alternar tema"
+          >
+            <i class="ph-bold ph-moon"></i>
+          </button>
+
+          <div class="mobile-toggle" id="mobile-toggle">
+            <span></span><span></span><span></span>
+          </div>
+        </div>
+      </div>
     </nav>
 
-    <main id="inicio" class="cabecalho">
-      <img src="img/foto.png" alt="foto-vitoria" class="foto-perfil" />
-      <h1>Vitoria Alcântara</h1>
-      <p class="cabecalho-sub-titulo">Desenvolvedora Front-End</p>
+    <main>
+      <section id="inicio" class="hero container">
+        <div class="hero-grid">
+          <div class="hero-text reveal">
+            <div class="badge">Disponível para projetos</div>
+            <h1 class="hero-title">
+              Interfaces modernas para negócios que valorizam
+              <span class="text-gradient">performance</span>.
+            </h1>
+            <p class="hero-desc">
+              Desenvolvendo interfaces otimizadas com JavaScript e evoluindo
+              projetos no ecossistema React, sempre com foco em código limpo,
+              velocidade e excelente experiência do usuário.
+            </p>
+            <div class="hero-botoes">
+              <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
+              <a href="#contato" class="btn btn-secondary">Contato</a>
+            </div>
+          </div>
+          <div class="hero-image reveal">
+            <div class="image-wrapper">
+              <img src="img/foto.png" alt="Vitória Alcântara" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="sobre" class="sobre container reveal">
+        <h2 class="section-title">Sobre mim</h2>
+        <div class="box-glass">
+          <p>
+            Sou Desenvolvedora Front-End e estudante de Análise e
+            Desenvolvimento de Sistemas na Unipê. Meu foco é construir páginas e
+            sistemas que funcionem perfeitamente em qualquer dispositivo,
+            entregando o máximo de performance e acessibilidade.
+          </p>
+          <p style="margin-top: 1rem">
+            Com minha experiência anterior em atendimento corporativo (AeC),
+            desenvolvi uma comunicação clara e assertiva. Um bom projeto não se
+            resume a apenas escrever código, mas a entender a real necessidade
+            do cliente, alinhar expectativas e entregar resultados dentro do
+            prazo estipulado.
+          </p>
+        </div>
+      </section>
+
+      <section id="habilidades" class="habilidades container reveal">
+        <h2 class="section-title">Habilidades Técnicas</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <i class="ph ph-file-html"></i><span>HTML5</span>
+          </div>
+          <div class="skill-card">
+            <i class="ph ph-file-css"></i><span>CSS3</span>
+          </div>
+          <div class="skill-card">
+            <i class="ph ph-file-js"></i><span>JavaScript</span>
+          </div>
+          <div class="skill-card">
+            <i class="ph ph-code"></i><span>TypeScript</span>
+          </div>
+          <div class="skill-card">
+            <i class="ph ph-atom"></i><span>React.js</span>
+          </div>
+          <div class="skill-card">
+            <i class="ph ph-triangle"></i><span>Next.js</span>
+          </div>
+          <div class="skill-card">
+            <i class="ph ph-wind"></i><span>Tailwind CSS</span>
+          </div>
+          <div class="skill-card">
+            <i class="ph ph-git-branch"></i><span>Git & GitHub</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="projetos" class="projetos container reveal">
+        <h2 class="section-title">Projetos em Destaque</h2>
+        <div class="projetos-grid">
+          <article class="project-card box-glass">
+            <div class="project-img-wrapper" onclick="openModal('img/kt.png')">
+              <img src="img/kt.png" alt="KT Fashion" loading="lazy" />
+              <div class="img-hover">
+                <i class="ph-bold ph-arrows-out-simple"></i> Expandir Imagem
+              </div>
+            </div>
+            <div class="project-info">
+              <span class="project-tag">E-Commerce</span>
+              <h3>KT Fashion</h3>
+              <p>
+                Loja virtual otimizada para conversão mobile. Implementação de
+                catálogo responsivo, carrinho de compras com cálculo automático
+                e fechamento rápido de pedidos via WhatsApp.
+              </p>
+              <div class="tech-stack">
+                <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card box-glass">
+            <div
+              class="project-img-wrapper"
+              onclick="openModal('img/vitec-projeto.png')"
+            >
+              <img
+                src="img/vitec-projeto.png"
+                alt="Vitec Store"
+                loading="lazy"
+              />
+              <div class="img-hover">
+                <i class="ph-bold ph-arrows-out-simple"></i> Expandir Imagem
+              </div>
+            </div>
+            <div class="project-info">
+              <span class="project-tag">Landing Page</span>
+              <h3>Vitec Store</h3>
+              <p>
+                Página de vendas de alto impacto para smartwatches. Focada em
+                estética Cyberpunk moderna, transições CSS fluidas e arquitetura
+                Mobile First para retenção de usuários.
+              </p>
+              <div class="tech-stack">
+                <span>HTML5</span><span>CSS3</span><span>UI/UX</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card box-glass">
+            <div
+              class="project-img-wrapper"
+              onclick="openModal('img/projeto-Starbucks.png')"
+            >
+              <img
+                src="img/projeto-Starbucks.png"
+                alt="Starbucks UI"
+                loading="lazy"
+              />
+              <div class="img-hover">
+                <i class="ph-bold ph-arrows-out-simple"></i> Expandir Imagem
+              </div>
+            </div>
+            <div class="project-info">
+              <span class="project-tag">Estudo de Interface</span>
+              <h3>Starbucks Landing Page</h3>
+              <p>
+                Reprodução rigorosa de interface corporativa global. Destaque
+                para a organização semântica do código e domínio avançado de
+                posicionamento com CSS Grid e Flexbox.
+              </p>
+              <div class="tech-stack">
+                <span>HTML Semântico</span><span>CSS Avançado</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="contato" class="contato container reveal">
+        <div class="box-glass contato-box">
+          <h2 class="section-title">Contato</h2>
+          <p>
+            Precisa de um site veloz, de uma landing page que converte ou apenas
+            trocar uma ideia sobre seu negócio? Escolha seu canal preferido
+            abaixo.
+          </p>
+          <div class="contato-links">
+            <a
+              href="mailto:vitoriaoficialtrabalho@gmail.com"
+              class="contact-item"
+            >
+              <i class="ph-bold ph-envelope-simple"></i>
+              <div>
+                <span>E-mail</span>
+                <strong>vitoriaoficialtrabalho@gmail.com</strong>
+              </div>
+            </a>
+            <a
+              href="https://wa.me/5583988853626"
+              target="_blank"
+              class="contact-item"
+            >
+              <i class="ph-bold ph-whatsapp-logo"></i>
+              <div>
+                <span>WhatsApp</span>
+                <strong>(83) 98885-3626</strong>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <section id="sobre" class="sobre">
-      <h2 class="sobre-titulo">Sobre Mim</h2>
-
-      <div class="sobre-caixa">
-        <p class="sobre-paragrafo">
-          Olá! Meu nome é Vitoria Alcântara e sou estudante de análise e
-          desenvolvimento de sistemas.E estou focada em me tornar uma
-          desenvolvedora front-end. Tenho experiência com HTML, CSS e
-          JavaScript.
-        </p>
-
-        <p class="sobre-paragrafo">
-          Atualmente, estou em constante aprendizado, desenvolvendo projetos
-          práticos para aprimorar minhas habilidades e entender melhor como
-          transformar ideias em soluções digitais.
-        </p>
-      </div>
-    </section>
-
-    <section id="projetos" class="projetos">
-      <h2 class="projetos-titulo">Meus Projetos</h2>
-      <div class="projetos-caixa">
-        <div class="projetos-card">
-          <img
-            src="img/vitec-projeto.png"
-            alt="Projeto 1"
-            class="projetos-imagem"
-          />
-          <div class="caixa-textos-projeto">
-            <h3 class="info-projetos">Vitec Store</h3>
-            <p class="paragrafo-projetos">
-              E-commerce Apple com visual Cyberpunk.
-            </p>
-          </div>
-        </div>
-        <div class="projetos-card">
-          <img
-            src="img/projeto-Starbucks.png"
-            alt="Projeto 2"
-            class="projetos-imagem"
-          />
-          <div class="caixa-textos-projeto">
-            <h3 class="info-projetos">Starbucks</h3>
-            <p class="paragrafo-projetos">Cafeteria com os melhores cafés</p>
-          </div>
+    <footer>
+      <div class="container footer-box">
+        <p>&copy; 2026 Vitória Alcântara. Todos os direitos reservados.</p>
+        <div class="socials">
+          <a
+            href="https://github.com/vitoria-ads"
+            target="_blank"
+            aria-label="GitHub"
+            ><i class="ph-bold ph-github-logo"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/vitoriaalc"
+            target="_blank"
+            aria-label="LinkedIn"
+            ><i class="ph-bold ph-linkedin-logo"></i
+          ></a>
         </div>
       </div>
-    </section>
+    </footer>
 
-    <section id="contato" class="contatos">
-      <h2 class="contatos-titulo">Entre em Contato</h2>
-      <form
-        action=""
-        class="formulario-contato"
-        id="formulario"
-        onsubmit="enviarWhats(event)"
-      >
-        <div class="grupo-form">
-          <input placeholder="Seu nome" class="campo-form" id="nome" />
-        </div>
-        <div class="grupo-form">
-          <textarea
-            class="campo-form"
-            placeholder="Digite sua Mensagem"
-            rows="6"
-            id="mensagem"
-          ></textarea>
-        </div>
-        <button type="submit" class="botao-form">Enviar Whatsapp</button>
-      </form>
-    </section>
+    <div id="imageModal" class="modal">
+      <span class="close-modal">&times;</span>
+      <img class="modal-content" id="img01" />
+    </div>
 
     <script src="script.js"></script>
   </body>
