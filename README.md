@@ -14,7 +14,7 @@
 <br>
 
 <div align="center">
-  <img src="https://vitoria-ads.github.io/Portfolio/img/foto.png" alt="Vitória Alcântara" width="180" style="border-radius: 50%;" />
+  <img src="img/foto.png" alt="Vitória Alcântara" width="180" style="border-radius: 50%;" />
 </div>
 
 <br>
@@ -43,11 +43,11 @@ Minha experiência anterior em atendimento corporativo me deu uma comunicação 
 
 <div align="center">
 
-| Front-End | Linguagem | Ferramentas |
-|:---:|:---:|:---:|
-| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
-| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) |
-| ![React](https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black) | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white) | ![VSCode](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white) |
+|                                              Front-End                                              |                                                    Linguagem                                                    |                                                  Ferramentas                                                   |
+| :-------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------: |
+|  ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)   | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |           ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)           |
+|    ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)    | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |      ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)       |
+| ![React](https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black) |     ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)      | ![VSCode](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white) |
 
 </div>
 
@@ -56,7 +56,9 @@ Minha experiência anterior em atendimento corporativo me deu uma comunicação 
 ## 🚀 Projetos em Destaque
 
 ### 🛍️ [KT Fashion](https://vitoria-ads.github.io/Portfolio/)
+
 **E-commerce** — Loja virtual otimizada para conversão mobile.
+
 - Catálogo responsivo
 - Carrinho de compras com cálculo automático
 - Fechamento rápido de pedidos via WhatsApp
@@ -66,7 +68,9 @@ Minha experiência anterior em atendimento corporativo me deu uma comunicação 
 <br>
 
 ### ⌚ Vitec Store
+
 **Landing Page** — Página de vendas de alto impacto para smartwatches.
+
 - Estética Cyberpunk moderna
 - Transições CSS fluidas
 - Arquitetura Mobile First para retenção de usuários
@@ -76,7 +80,9 @@ Minha experiência anterior em atendimento corporativo me deu uma comunicação 
 <br>
 
 ### ☕ Starbucks UI Clone
+
 **Estudo de Interface** — Reprodução rigorosa de interface corporativa global.
+
 - Organização semântica do código
 - Domínio avançado de posicionamento com CSS Grid e Flexbox
 
@@ -86,13 +92,13 @@ Minha experiência anterior em atendimento corporativo me deu uma comunicação 
 
 ## ✨ Funcionalidades do Portfólio
 
-| Funcionalidade | Descrição |
-|---|---|
-| 📱 **Design Responsivo** | Layout adaptado para desktop, tablet e mobile |
-| 🌙 **Dark Mode** | Alternância entre temas claro e escuro |
-| 🎬 **Animações** | Transições suaves para melhor experiência de navegação |
-| 🎨 **Layout Moderno** | Identidade visual limpa, com hierarquia e foco em conversão |
-| ⚡ **Performance** | Carregamento rápido e otimizado para SEO |
+| Funcionalidade           | Descrição                                                   |
+| ------------------------ | ----------------------------------------------------------- |
+| 📱 **Design Responsivo** | Layout adaptado para desktop, tablet e mobile               |
+| 🌙 **Dark Mode**         | Alternância entre temas claro e escuro                      |
+| 🎬 **Animações**         | Transições suaves para melhor experiência de navegação      |
+| 🎨 **Layout Moderno**    | Identidade visual limpa, com hierarquia e foco em conversão |
+| ⚡ **Performance**       | Carregamento rápido e otimizado para SEO                    |
 
 ---
 
@@ -117,12 +123,12 @@ Não é necessário instalar dependências — o projeto é construído com **HT
 
 <div align="center">
 
-| Canal | Link |
-|---|---|
-| 🐙 GitHub | [@vitoria-ads](https://github.com/vitoria-ads) |
-| 💼 LinkedIn | [vitoriaalc](https://www.linkedin.com/in/vitoriaalc) |
-| ✉️ E-mail | [vitoriaoficialtrabalho@gmail.com](mailto:vitoriaoficialtrabalho@gmail.com) |
-| 📱 WhatsApp | [(83) 98885-3626](https://wa.me/5583988853626) |
+| Canal       | Link                                                                        |
+| ----------- | --------------------------------------------------------------------------- |
+| 🐙 GitHub   | [@vitoria-ads](https://github.com/vitoria-ads)                              |
+| 💼 LinkedIn | [vitoriaalc](https://www.linkedin.com/in/vitoriaalc)                        |
+| ✉️ E-mail   | [vitoriaoficialtrabalho@gmail.com](mailto:vitoriaoficialtrabalho@gmail.com) |
+| 📱 WhatsApp | [(83) 98885-3626](https://wa.me/5583988853626)                              |
 
 </div>
 
