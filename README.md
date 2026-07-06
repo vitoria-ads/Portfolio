@@ -14,7 +14,7 @@
 <br>
 
 <div align="center">
-  <img src="img/foto.png" alt="Vitória Alcântara" width="180" style="border-radius: 50%;" />
+  <img src="/img/fotomnh.png" alt="Vitória Alcântara" width="180" style="border-radius: 50%;" />
 </div>
 
 <br>
