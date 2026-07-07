@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vitória Alcântara | Desenvolvedora Front-End</title>
+    <title>Vitória Alcântara | Dev Full-Stack</title>
 
     <link
       rel="icon"
@@ -55,13 +55,13 @@
           <div class="hero-text reveal">
             <div class="badge">Disponível para projetos</div>
             <h1 class="hero-title">
-              Interfaces modernas para negócios que valorizam
-              <span class="text-gradient">performance</span>.
+              Sistemas e interfaces para negócios que valorizam
+              <span class="text-gradient">resultados</span>.
             </h1>
             <p class="hero-desc">
-              Desenvolvendo interfaces otimizadas com JavaScript e evoluindo
-              projetos no ecossistema React, sempre com foco em código limpo,
-              velocidade e excelente experiência do usuário.
+              Criação de Landing Pages, Web Apps e Sistemas CRM. Do banco de
+              dados à interface responsiva, desenvolvendo soluções de alta
+              performance focadas em conversão e usabilidade.
             </p>
             <div class="hero-botoes">
               <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
@@ -80,17 +80,17 @@
         <h2 class="section-title">Sobre mim</h2>
         <div class="box-glass">
           <p>
-            Sou Desenvolvedora Front-End e estudante de Análise e
-            Desenvolvimento de Sistemas na Unipê. Meu foco é construir páginas e
-            sistemas que funcionem perfeitamente em qualquer dispositivo,
-            entregando o máximo de performance e acessibilidade.
+            Sou Desenvolvedora e estudante de Análise e Desenvolvimento de
+            Sistemas na Unipê. Meu foco é construir plataformas que funcionem
+            perfeitamente de ponta a ponta, entregando o máximo de performance
+            na interface e segurança na nuvem.
           </p>
           <p style="margin-top: 1rem">
             Com minha experiência anterior em atendimento corporativo (AeC),
             desenvolvi uma comunicação clara e assertiva. Um bom projeto não se
             resume a apenas escrever código, mas a entender a real necessidade
-            do cliente, alinhar expectativas e entregar resultados dentro do
-            prazo estipulado.
+            do cliente, alinhar expectativas e entregar resultados escaláveis
+            dentro do prazo estipulado.
           </p>
         </div>
       </section>
@@ -122,12 +122,76 @@
           <div class="skill-card">
             <i class="ph ph-git-branch"></i><span>Git & GitHub</span>
           </div>
+          <div class="skill-card">
+            <i class="ph ph-file-code"></i><span>Python</span>
+          </div>
+          <div class="skill-card">
+            <i class="ph ph-lightning"></i><span>FastAPI</span>
+          </div>
+          <div class="skill-card">
+            <i class="ph ph-database"></i><span>Supabase (SQL)</span>
+          </div>
+          <div class="skill-card">
+            <i class="ph ph-hard-drives"></i><span>Deploy em Nuvem</span>
+          </div>
         </div>
       </section>
 
       <section id="projetos" class="projetos container reveal">
         <h2 class="section-title">Projetos em Destaque</h2>
         <div class="projetos-grid">
+          <article class="project-card box-glass">
+            <div
+              class="project-img-wrapper"
+              onclick="openModal('img/solarflow.png')"
+            >
+              <img src="img/solarflow.png" alt="SolarFlow CRM" loading="lazy" />
+              <div class="img-hover">
+                <i class="ph-bold ph-arrows-out-simple"></i> Expandir Imagem
+              </div>
+            </div>
+            <div class="project-info">
+              <span
+                class="project-tag"
+                style="
+                  background: rgba(16, 185, 129, 0.2);
+                  color: #10b981;
+                  border: 1px solid rgba(16, 185, 129, 0.3);
+                "
+                >Full-Stack / SaaS</span
+              >
+              <h3>SolarFlow CRM</h3>
+              <p>
+                Sistema inteligente para captação de leads e gestão de vendas.
+                Arquitetura dividida entre Landing Page de alta conversão e um
+                Painel Administrativo VIP (Dark Mode) conectado em tempo real ao
+                banco de dados relacional.
+              </p>
+              <div class="tech-stack">
+                <span>FastAPI</span><span>Supabase</span><span>Tailwind</span
+                ><span>Python</span>
+              </div>
+              <div style="margin-top: 1rem">
+                <a
+                  href="https://vitoria-ads.github.io/SolarFlow/"
+                  target="_blank"
+                  style="
+                    color: #00f2fe;
+                    font-size: 0.85rem;
+                    font-weight: bold;
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    gap: 0.25rem;
+                  "
+                >
+                  <i class="ph-bold ph-arrow-square-out"></i> Acessar Sistema Ao
+                  Vivo
+                </a>
+              </div>
+            </div>
+          </article>
+
           <article class="project-card box-glass">
             <div class="project-img-wrapper" onclick="openModal('img/kt.png')">
               <img src="img/kt.png" alt="KT Fashion" loading="lazy" />
@@ -211,9 +275,9 @@
         <div class="box-glass contato-box">
           <h2 class="section-title">Contato</h2>
           <p>
-            Precisa de um site veloz, de uma landing page que converte ou apenas
-            trocar uma ideia sobre seu negócio? Escolha seu canal preferido
-            abaixo.
+            Precisa de um sistema sob medida, de uma landing page que converte
+            ou apenas trocar uma ideia sobre desenvolvimento? Escolha seu canal
+            preferido abaixo.
           </p>
           <div class="contato-links">
             <a
